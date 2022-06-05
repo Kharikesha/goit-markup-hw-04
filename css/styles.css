@@ -209,7 +209,10 @@ svg {
 }
 
 .advanteges-box {
-  padding: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -369,14 +372,18 @@ svg {
   margin-top: calc(-1 * 30px);
 }
 
+.clients-item {
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
 .clients-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: calc(100% / 6 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-  padding: 16px 30px;
+  width: 170px;
+  height: 92px;
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
